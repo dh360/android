@@ -1,0 +1,158 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/beijing1"
+    tools:context="com.example.ui.MainActivityUI" >
+
+    <Button
+        android:id="@+id/denglu"
+        android:layout_width="50sp"
+        android:layout_height="40sp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:background="#00000000"
+        android:text="登录"
+        android:textColor="@android:color/white"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/biaoji"
+        android:layout_width="50sp"
+        android:layout_height="40sp"
+        android:layout_alignBaseline="@+id/denglu"
+        android:layout_alignBottom="@+id/denglu"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:background="#00000000"
+        android:text="定位"
+        android:textColor="@android:color/white"
+        android:textSize="20sp" />
+
+    
+
+    <TextView
+        android:id="@+id/humidity"
+        android:layout_width="80sp"
+        android:layout_height="40sp"
+        android:layout_toRightOf="@+id/dangqianshidu"
+        android:layout_alignBottom="@id/dangqianshidu"
+        android:textColor="@android:color/white"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/dangqianshidu"
+        android:layout_width="56sp"
+        android:layout_height="40sp"
+        android:layout_marginTop="320dp"
+        android:layout_marginLeft="192dp"
+        android:text="湿度"
+        android:textColor="@android:color/white"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/fengli"
+        android:layout_width="200sp"
+        android:layout_height="40sp"
+        android:layout_below="@+id/temp"
+        android:layout_centerHorizontal="true"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:gravity="center" />
+
+    <Button
+        android:id="@+id/weilai"
+        android:layout_width="200sp"
+        android:layout_height="40sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="600dp"
+        android:background="#00000000"
+        android:text="未来天气"
+        android:textColor="@android:color/white"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/temp"
+        android:layout_width="200sp"
+        android:layout_height="40sp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/weather"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        
+        android:gravity="center" />
+
+    <ImageButton
+        android:id="@+id/fenxiang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="15dp"
+        android:background="#00000000"
+        android:src="@drawable/common_title_share_pressed"
+         />
+
+    <TextView
+        android:id="@+id/weather"
+        android:layout_width="240sp"
+        android:layout_height="40sp"
+        android:layout_below="@+id/place"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:gravity="center" 
+         />
+
+    <ImageButton
+        android:id="@+id/shuaxin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="25dp"
+        android:background="#00000000"
+        android:src="@drawable/shuaxin" />
+
+    
+
+    <TextView
+        android:id="@+id/day"
+        android:layout_width="240sp"
+        android:layout_height="40sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="11dp"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/week"
+        android:layout_width="100sp"
+        android:layout_height="40sp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="@android:color/white"
+        android:gravity="center"
+        android:textSize="20dp" 
+        />
+    <TextView 
+        android:id="@+id/place"
+        android:layout_height="80sp"
+        android:layout_width="260sp"
+        android:textSize="60dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100sp"
+        android:gravity="center"
+        
+        android:textColor="@android:color/white"
+        />
+
+ 
+
+</RelativeLayout>

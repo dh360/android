@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+	android:background="@drawable/sadasadsa">
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="70sp"
+        android:layout_height="40sp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="100sp"
+        android:text="确定"
+        android:textColor="@android:color/white"
+        android:background="#00000000" />
+
+    <EditText
+        android:id="@+id/et1"
+        android:layout_width="300sp"
+        android:layout_height="40sp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:textColor="@android:color/white"
+        android:hint="请输入城市名" />
+   
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/et1"
+        android:layout_marginLeft="21dp"
+        android:layout_marginTop="32dp"
+        android:textColor="@android:color/white"
+        android:text="北京" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/button2"
+        android:layout_toRightOf="@+id/button2"
+        android:textColor="@android:color/white"
+        android:text="上海" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/button3"
+        android:layout_alignBottom="@+id/button3"
+        android:layout_toRightOf="@+id/button3"
+        android:textColor="@android:color/white"
+        android:text="天津" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/button4"
+        android:layout_alignBottom="@+id/button4"
+        android:layout_toRightOf="@+id/button4"
+        android:textColor="@android:color/white"
+        android:text="济南" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/button2"
+        android:layout_below="@+id/button2"
+        android:layout_marginTop="14dp"
+        android:textColor="@android:color/white"
+        android:text="青岛" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/button6"
+        android:layout_alignBottom="@+id/button6"
+        android:layout_toLeftOf="@+id/button4"
+        android:textColor="@android:color/white"
+        android:text="大连" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/button7"
+        android:layout_alignBottom="@+id/button7"
+        android:layout_alignLeft="@+id/button4"
+        android:textColor="@android:color/white"
+        android:text="吉林" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/button8"
+        android:layout_alignBottom="@+id/button8"
+        android:layout_alignLeft="@+id/button5"
+        android:textColor="@android:color/white"
+        android:text="广州" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/button6"
+        android:layout_below="@+id/button6"
+        android:layout_marginTop="14dp"
+        android:textColor="@android:color/white"
+        android:text="三亚" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/button10"
+        android:layout_alignLeft="@+id/button7"
+        android:textColor="@android:color/white"
+        android:text="重庆" />
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/button11"
+        android:layout_alignBottom="@+id/button11"
+        android:layout_alignLeft="@+id/button8"
+        android:textColor="@android:color/white"
+        android:text="南京" />
+
+    <Button
+        android:id="@+id/button13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/button12"
+        android:layout_alignBottom="@+id/button12"
+        android:layout_alignLeft="@+id/button9"
+        android:textColor="@android:color/white"
+        android:text="郑州" />
+
+    <Button
+        android:id="@+id/button14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/button10"
+        android:layout_below="@+id/button10"
+        android:layout_marginTop="14dp"
+        android:textColor="@android:color/white"
+        android:text="青岛" />
+
+    <Button
+        android:id="@+id/button15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/button14"
+        android:layout_alignLeft="@+id/button11"
+        android:textColor="@android:color/white"
+        android:text="深圳" />
+
+    <Button
+        android:id="@+id/button16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/button15"
+        android:layout_alignBottom="@+id/button15"
+        android:layout_alignLeft="@+id/button12"
+        android:textColor="@android:color/white"
+        android:text="长春" />
+
+    <Button
+        android:id="@+id/button17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/button16"
+        android:layout_alignBottom="@+id/button16"
+        android:layout_alignLeft="@+id/button13"
+        android:textColor="@android:color/white"
+        android:text="南昌" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/et1"
+        android:text="热门城市：" 
+        android:textColor="@android:color/white"
+        android:textSize="20sp"/>
+
+    
+
+ />
+
+</RelativeLayout>
